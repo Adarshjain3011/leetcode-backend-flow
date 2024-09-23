@@ -1,3 +1,8 @@
+Flow Of Execution 
+
+![image](https://github.com/user-attachments/assets/36deee13-8de1-43a5-83bd-924deeae1004)
+
+
 # Code Submission Queue with Pub/Sub and Worker
 
 This project implements a queue system using Redis for handling code submissions. A worker continuously fetches submissions from the queue, processes them, stores the results in a database, and publishes the result back through a Redis channel.
@@ -54,4 +59,3 @@ REDIS_URL=redis://localhost:6379
 MONGO_URI=mongodb://localhost:27017/yourdb
 
 
-![image](https://github.com/user-attachments/assets/36deee13-8de1-43a5-83bd-924deeae1004)
